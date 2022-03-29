@@ -1,4 +1,4 @@
-#include "cpp_binding_example.hpp"
+#include "cpp_lib.hpp"
 
 int main()
 {
