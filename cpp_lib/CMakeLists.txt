@@ -1,6 +1,7 @@
 add_library("cpp_lib")
 set_target_properties("cpp_lib" PROPERTIES VERSION ${PROJECT_VERSION})
-set_target_properties("cpp_lib" PROPERTIES PUBLIC_HEADER "include/cpp_lib.hpp")
+# set_target_properties("cpp_lib" PROPERTIES PUBLIC_HEADER "include/cpp_lib.hpp")
+# set_target_properties("cpp_lib" PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR})
 
 target_sources("cpp_lib"
     PUBLIC
