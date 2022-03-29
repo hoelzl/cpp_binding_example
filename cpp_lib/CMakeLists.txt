@@ -1,4 +1,5 @@
 add_library("cpp_lib")
+set_target_properties("cpp_lib" PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 target_sources("cpp_lib"
     PUBLIC
