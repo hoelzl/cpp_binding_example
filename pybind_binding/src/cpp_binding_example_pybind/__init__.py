@@ -1,1 +1,1 @@
-from ._core import add1
+from ._core import add1, print_info, MyClass

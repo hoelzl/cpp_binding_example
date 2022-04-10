@@ -13,5 +13,7 @@ void print_cpp_binding_example_info()
     std::cout << "  namespace: bex\n";
 }
 
+std::string MyClass::get_name() { return name; }
+void MyClass::set_name(std::string name) { this->name = std::move(name); }
 
 } // namespace bex
